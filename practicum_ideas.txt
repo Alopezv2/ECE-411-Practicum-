@@ -1,0 +1,31 @@
+********** PRACTICUM IDEAS **********
+
+Idea #1 - Sun Tracking Solar Panel Charging Station: The solar panel will track the position of the sun using a light sensor and be moved by a motor. The solar panel 
+will charge a battery with a USB type-1 port to charge smaller devices. The LCD screen will show the following: Battery remaining, Time to full charge, Amount of energy 
+received by solar panels. We will try to make this as compact as possible, for easy transportation. 
+
+    Sensors: Solar Panel, Light sensor (trackability performance)
+    Controllers: ATmega328
+    Actuators: LEDs or LCD Display, Motor
+
+
+Idea #2 - Machine Learning Robot Mouse: This robot mouse will utilize machine learning to make mistakes and learn to navigate through any maze presented to it. 
+The robot mouse will utilize the below sensors to detect incoming walls and stop itself from colliding with the wall and either reverse or turn to another 
+direction to continue its journey.
+
+	  Sensors: distance sensor, IR sensor, Ultrasonic sensor
+	  Controllers: ATmega328
+	  Actuators: motors, servos
+
+
+Idea #3 - Gravity Battery: Solar panel that tracks the position of the sun would be connected to a dc motor. When the panels are receiving energy, they will power 
+the motor to raise a weight. The elevated weight will store kinetic energy. There will be a USB type-1 portal where a device can be plugged and charged as the weight 
+is lower using the same dc motor. An LCD display will show the user how much energy the battery can provide and also show how long (at current rate) it will take for 
+the weight to be fully raised.
+	
+    Sensors: Photoresistors, solar panel?
+	  Controller: ATmega328
+	  Actuators: DC motor, LCD Display
+
+
+**************************************
