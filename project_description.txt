@@ -1,0 +1,5 @@
+Skynet 2020 Project: Line-Tracking Robot Car
+
+    Sensors: Ultrasonic sensor, Line sensors x3
+    Controller: ATmega328P
+    Actuators: motors, buzzer?
