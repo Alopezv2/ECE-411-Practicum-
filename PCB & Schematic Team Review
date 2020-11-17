@@ -1,5 +1,10 @@
 PCB & Schematic Review 11/16/2020
-
+Review By: Team 1 
+           Josh Blazek 
+           Natalie Nguyen
+           Adam Provost 
+           Navid Karamichamgorda
+           
 - Create a fail safe mechanism, that will protect our board if there is a short circuit or a components overheats, etc.
 - Relabel our AVR programmer in schematic to "AVR Programmer Pin Headers".
 - Run DRC using OSHpark specific DRC. 
