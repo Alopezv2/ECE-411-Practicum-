@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -174,24 +174,22 @@
 <plain>
 <text x="37" y="8" size="0.8128" layer="21">Line-Tracking Robot</text>
 <text x="36.1" y="9.2" size="0.8128" layer="21">Portland State University</text>
-<wire x1="18" y1="0" x2="27.5" y2="0" width="0.1524" layer="20"/>
-<wire x1="27.5" y1="0" x2="28.5" y2="1" width="0.1524" layer="20"/>
-<wire x1="28.5" y1="1" x2="28.5" y2="3.5" width="0.1524" layer="20"/>
-<wire x1="28.5" y1="3.5" x2="30" y2="5" width="0.1524" layer="20"/>
-<wire x1="30" y1="5" x2="47.5" y2="5" width="0.1524" layer="20"/>
-<wire x1="18" y1="0" x2="17" y2="1" width="0.1524" layer="20"/>
-<wire x1="17" y1="1" x2="17" y2="3.5" width="0.1524" layer="20"/>
-<wire x1="17" y1="3.5" x2="15.5" y2="5" width="0.1524" layer="20"/>
-<wire x1="15.5" y1="5" x2="2" y2="5" width="0.1524" layer="20"/>
-<wire x1="2" y1="5" x2="0" y2="7" width="0.1524" layer="20"/>
-<wire x1="0" y1="7" x2="0" y2="37.5" width="0.1524" layer="20"/>
-<wire x1="2" y1="40" x2="49" y2="40" width="0.1524" layer="20"/>
-<wire x1="51" y1="37" x2="51" y2="8.5" width="0.1524" layer="20"/>
-<wire x1="51" y1="8.5" x2="47.5" y2="5" width="0.1524" layer="20"/>
-<wire x1="2" y1="40" x2="0" y2="38" width="0.15" layer="20"/>
-<wire x1="0" y1="38" x2="0" y2="37.5" width="0.15" layer="20"/>
-<wire x1="49" y1="40" x2="51" y2="38" width="0.15" layer="20"/>
-<wire x1="51" y1="37" x2="51" y2="38" width="0.15" layer="20"/>
+<wire x1="17.9" y1="-0.2" x2="27.4" y2="-0.2" width="0.1524" layer="20"/>
+<wire x1="27.4" y1="-0.2" x2="28.5" y2="1" width="0.1524" layer="20"/>
+<wire x1="28.5" y1="1" x2="28.7" y2="3.2" width="0.1524" layer="20"/>
+<wire x1="28.7" y1="3.2" x2="30.2" y2="4.4" width="0.1524" layer="20"/>
+<wire x1="30.2" y1="4.4" x2="48" y2="4.4" width="0.1524" layer="20"/>
+<wire x1="17.9" y1="-0.2" x2="16.8" y2="1" width="0.1524" layer="20"/>
+<wire x1="16.8" y1="1" x2="16.5" y2="3" width="0.1524" layer="20"/>
+<wire x1="16.5" y1="3" x2="15.6" y2="4" width="0.1524" layer="20"/>
+<wire x1="15.6" y1="4" x2="2" y2="4" width="0.1524" layer="20"/>
+<wire x1="2" y1="4" x2="-0.6" y2="7" width="0.1524" layer="20"/>
+<wire x1="-0.6" y1="7" x2="-0.6" y2="38" width="0.1524" layer="20"/>
+<wire x1="1.4" y1="40.4" x2="49.3" y2="40.4" width="0.1524" layer="20"/>
+<wire x1="51.7" y1="38.5" x2="51.8" y2="9.1" width="0.1524" layer="20"/>
+<wire x1="51.8" y1="9.1" x2="48" y2="4.4" width="0.1524" layer="20"/>
+<wire x1="1.4" y1="40.4" x2="-0.6" y2="38" width="0.15" layer="20"/>
+<wire x1="49.3" y1="40.4" x2="51.7" y2="38.5" width="0.15" layer="20"/>
 <text x="39.5" y="6.8" size="0.8128" layer="21">11-18-2020</text>
 <text x="40.5" y="5.7" size="0.8128" layer="21">Ver. 1.0</text>
 </plain>
@@ -735,18 +733,24 @@ CONN_04
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="oshpark-2layer">
-<description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Please make sure your boards conform to these design rules.
-&lt;/p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Note, that not all DRC settings must be set by the manufacturer. Several can be adjusted for the design, including those listed on our docs page here. 
-&lt;a href=&quot;http://docs.oshpark.com/design-tools/eagle/design-rules-files/&quot;&gt;Adjustable Settings&lt;/a&gt;
-&lt;/p&gt;</description>
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
-<param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
@@ -756,14 +760,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mdSmdPad" value="6mil"/>
 <param name="mdSmdVia" value="6mil"/>
 <param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="15mil"/>
+<param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="10mil"/>
-<param name="msMicroVia" value="10mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -772,19 +776,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="5mil"/>
+<param name="rlMinPadTop" value="10mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="5mil"/>
+<param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="5mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="5mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="5mil"/>
+<param name="rlMinViaInner" value="8mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="5mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="5mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -793,8 +797,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2.5mil"/>
-<param name="mlMaxStopFrame" value="2.5mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -1077,40 +1081,40 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J9" pad="GND"/>
 <contactref element="J4" pad="4"/>
 <polygon width="0.1524" layer="16">
-<vertex x="2" y="40"/>
-<vertex x="0" y="38"/>
-<vertex x="0" y="7"/>
-<vertex x="2" y="5"/>
-<vertex x="15.5" y="5"/>
-<vertex x="17" y="3.5"/>
-<vertex x="17" y="1"/>
-<vertex x="18" y="0"/>
-<vertex x="27.5" y="0"/>
-<vertex x="28.5" y="1"/>
-<vertex x="28.5" y="3.5"/>
-<vertex x="30" y="5"/>
-<vertex x="47.5" y="5"/>
-<vertex x="51" y="8.5"/>
-<vertex x="51" y="38"/>
-<vertex x="49" y="40"/>
+<vertex x="1.7" y="40.4"/>
+<vertex x="-0.6" y="38.1"/>
+<vertex x="-0.6" y="6.6"/>
+<vertex x="2" y="4"/>
+<vertex x="15.7" y="4"/>
+<vertex x="16.7" y="3"/>
+<vertex x="16.7" y="1.1"/>
+<vertex x="18" y="-0.2"/>
+<vertex x="27.3" y="-0.2"/>
+<vertex x="28.6" y="1.1"/>
+<vertex x="28.6" y="2.9"/>
+<vertex x="30.1" y="4.4"/>
+<vertex x="47.3" y="4.4"/>
+<vertex x="51.8" y="8.9"/>
+<vertex x="51.8" y="38"/>
+<vertex x="49.4" y="40.4"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="2" y="40"/>
-<vertex x="0" y="38"/>
-<vertex x="0" y="7"/>
-<vertex x="2" y="5"/>
-<vertex x="15.5" y="5"/>
-<vertex x="17" y="3.5"/>
-<vertex x="17" y="1"/>
-<vertex x="18" y="0"/>
-<vertex x="27.5" y="0"/>
-<vertex x="28.5" y="1"/>
-<vertex x="28.5" y="3.5"/>
-<vertex x="30" y="5"/>
-<vertex x="47.5" y="5"/>
-<vertex x="51" y="8.5"/>
-<vertex x="51" y="38"/>
-<vertex x="49" y="40"/>
+<vertex x="1.7" y="40.4"/>
+<vertex x="-0.6" y="38.1"/>
+<vertex x="-0.6" y="6.6"/>
+<vertex x="2" y="4"/>
+<vertex x="15.7" y="4"/>
+<vertex x="16.7" y="3"/>
+<vertex x="16.7" y="1.1"/>
+<vertex x="18" y="-0.2"/>
+<vertex x="27.3" y="-0.2"/>
+<vertex x="28.6" y="1.1"/>
+<vertex x="28.6" y="2.9"/>
+<vertex x="30.1" y="4.4"/>
+<vertex x="47.4" y="4.4"/>
+<vertex x="51.8" y="8.8"/>
+<vertex x="51.8" y="38"/>
+<vertex x="49.4" y="40.4"/>
 </polygon>
 <via x="44.45" y="38.1" extent="1-16" drill="0.35"/>
 <via x="25.4" y="38.1" extent="1-16" drill="0.35"/>
@@ -1119,8 +1123,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="25.4" y="25.4" extent="1-16" drill="0.35"/>
 <via x="44.45" y="25.4" extent="1-16" drill="0.35"/>
 <via x="6.35" y="12.7" extent="1-16" drill="0.35"/>
-<via x="18.95" y="12.7" extent="1-16" drill="0.35"/>
-<via x="44.45" y="12.7" extent="1-16" drill="0.35"/>
+<via x="18.75" y="12.7" extent="1-16" drill="0.35"/>
+<via x="45.45" y="12.7" extent="1-16" drill="0.35"/>
 <via x="38.1" y="25.4" extent="1-16" drill="0.35"/>
 <via x="12.7" y="25.4" extent="1-16" drill="0.35"/>
 <via x="31.75" y="6.35" extent="1-16" drill="0.35"/>
@@ -1151,17 +1155,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$7">
 <contactref element="U1" pad="4"/>
 <contactref element="J5" pad="1"/>
-<wire x1="40.1" y1="28.5" x2="31.5" y2="28.5" width="0.1524" layer="16"/>
-<wire x1="31.5" y1="28.5" x2="31.5" y2="28.4394" width="0.1524" layer="16"/>
-<via x="31.5" y="28.4394" extent="1-16" drill="0.35"/>
-<wire x1="40.1" y1="28.5" x2="41.1" y2="27.5" width="0.1524" layer="16"/>
+<wire x1="40.2606" y1="28.3394" x2="31.5" y2="28.3394" width="0.1524" layer="16"/>
+<via x="31.5" y="28.3394" extent="1-16" drill="0.35"/>
+<wire x1="40.2606" y1="28.3394" x2="41.1" y2="27.5" width="0.1524" layer="16"/>
 <via x="41.1" y="21.3" extent="1-16" drill="0.35"/>
 <wire x1="41.1" y1="21.3" x2="42.9" y2="21.3" width="0.1524" layer="1"/>
 <wire x1="42.9" y1="21.3" x2="43" y2="21.2" width="0.1524" layer="1"/>
 <wire x1="41.1" y1="27.5" x2="41.1" y2="21.3" width="0.1524" layer="16"/>
-<wire x1="31.5" y1="28.4394" x2="31.0606" y2="28" width="0.1524" layer="1"/>
-<wire x1="31.0606" y1="28" x2="30" y2="28" width="0.1524" layer="1"/>
-<wire x1="30" y1="28" x2="29.39" y2="27.39" width="0.1524" layer="1"/>
+<wire x1="31.5" y1="28.3394" x2="30.3394" y2="28.3394" width="0.1524" layer="1"/>
+<wire x1="30.3394" y1="28.3394" x2="29.39" y2="27.39" width="0.1524" layer="1"/>
 <wire x1="29.39" y1="27.39" x2="29.39" y2="26.81" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$8">
@@ -1269,9 +1271,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="30.5" y1="37.405" x2="31.865" y2="38.77" width="0.1524" layer="16"/>
 <wire x1="31.865" y1="38.77" x2="48.1" y2="38.77" width="0.1524" layer="16"/>
 <wire x1="48.1" y1="38.77" x2="50.35" y2="36.52" width="0.1524" layer="16"/>
-<wire x1="50.35" y1="8.92" x2="47.15" y2="5.72" width="0.1524" layer="16"/>
-<wire x1="31.28" y1="5.72" x2="47.15" y2="5.72" width="0.1524" layer="16"/>
-<wire x1="50.35" y1="36.52" x2="50.35" y2="8.92" width="0.1524" layer="16"/>
+<wire x1="50.35" y1="9.32" x2="46.75" y2="5.72" width="0.1524" layer="16"/>
+<wire x1="31.28" y1="5.72" x2="46.75" y2="5.72" width="0.1524" layer="16"/>
+<wire x1="50.35" y1="36.52" x2="50.35" y2="9.32" width="0.1524" layer="16"/>
 <via x="24.5" y="10.5" extent="1-16" drill="0.35"/>
 <wire x1="23.85" y1="11.15" x2="23.85" y2="12.5" width="0.1524" layer="1"/>
 <wire x1="24.5" y1="10.5" x2="23.85" y2="11.15" width="0.1524" layer="1"/>
@@ -1358,13 +1360,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="T4" pad="1"/>
 <wire x1="38.04" y1="12.5" x2="38.04" y2="11.75763125" width="0.1524" layer="16"/>
 <wire x1="38.04" y1="11.75763125" x2="36.98396875" y2="10.7016" width="0.1524" layer="16"/>
-<wire x1="30.9" y1="11.5" x2="29.9" y2="11.5" width="0.1524" layer="16"/>
-<via x="29.9" y="11.5" extent="1-16" drill="0.35"/>
-<wire x1="29.9" y1="11.5" x2="29.6" y2="11.5" width="0.1524" layer="1"/>
-<wire x1="29.6" y1="11.5" x2="29.23" y2="11.87" width="0.1524" layer="1"/>
+<wire x1="31.1" y1="11.8" x2="30.4" y2="11.8" width="0.1524" layer="16"/>
+<via x="30.4" y="11.8" extent="1-16" drill="0.35"/>
+<wire x1="30.4" y1="11.8" x2="29.3" y2="11.8" width="0.1524" layer="1"/>
+<wire x1="29.3" y1="11.8" x2="29.23" y2="11.87" width="0.1524" layer="1"/>
 <wire x1="29.23" y1="11.87" x2="29.23" y2="12.5" width="0.1524" layer="1"/>
-<wire x1="36.98396875" y1="10.7016" x2="31.6984" y2="10.7016" width="0.1524" layer="16"/>
-<wire x1="31.6984" y1="10.7016" x2="30.9" y2="11.5" width="0.1524" layer="16"/>
+<wire x1="36.98396875" y1="10.7016" x2="32.1984" y2="10.7016" width="0.1524" layer="16"/>
+<wire x1="32.1984" y1="10.7016" x2="31.1" y2="11.8" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
