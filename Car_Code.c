@@ -2,7 +2,7 @@
  * ultrasonic.c
  *
  * Created: 11/20/2020
- * Author: Alan Gonzalez
+ * Author: Alan Gonzalez / Victor Albarran
  */ 
 #define _NOP() do { __asm__ __volatile__ ("nop"); } while(0)
 #define F_CPU 1000000UL
